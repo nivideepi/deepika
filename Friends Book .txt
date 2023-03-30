@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        div{
+            padding: 30px;
+        }
+        body{
+            background-image: url("https://html.sammy-codes.com/images/background.jpg");
+            color: rgb(214, 60, 60);
+            background-size: cover;
+        }
+        textarea{
+            opacity: 0.5;
+        }
+        input {
+            opacity: 0.5;
+        }
+    </style>
+    <title>Friend</title>
+    <div align="center">
+        <h2 id="TitleName">FRIEND BOOK</h2>
+    </div>
+</head>
+<body>
+    <title id="TitleName">FRIENDS BOOK</title>
+    <img src="" id="backgroundImage" alt="">
+
+
+    <center>
+        <form id="yourName" action="#">
+            <div>
+                <label for="textBox">Your Name: </label>
+                <br>
+                <input id="textBox" type="text">
+            </div>
+        <div>
+            <label id="field1" for="textBox1">1. A message for me!</label>
+            <br>
+            <textarea name="textBox1" id="textBox1" cols="40" rows="10"></textarea>
+        </div>
+        <div>
+            <label for="textBox2">2. A nickname for me?</label>
+            <br>
+            <textarea name="textBox2" id="textBox2" cols="40" rows="10"></textarea>
+        </div>
+        
+        <div>
+            <p>3. Have you ever lied to me?</p>
+            <label for="yesMayBe">Yes</label>
+            <input type="radio" name="yesMayBe" id="yesMayBe">
+            
+            <label for="yesMaybe">Maybe</label>
+            <input type="radio" name="yesMayBe" id="YesMayBe">
+        </div>
+        <div>
+            <p>4. How to you feel when you talk to me?</p>
+            <label for="feel">Happy</label>
+            <input type="radio" name="feel1" id="feel">
+            
+            <label for="feel2">Irritated</label>
+            <input type="radio" name="feel1" id="feel2">
+        </div>
+        <div>
+            <p>5. Do you like on a roadtrip with me?</p>
+            <label for="trip">Yes</label>
+            <input type="radio" name="trip1" id="trip">
+            
+            <label for="trip2">Maybe</label>
+            <input type="radio" name="trip1" id="trip2">
+        </div>
+        <div>
+            <p>6. Best color that suits me?</p>
+            <label for="bestColour">Red</label>
+            <input type="checkbox" id="bestColour">
+
+            <label for="bestColour">Black</label>
+            <input type="checkbox" id="bestColour">
+
+            <label for="bestColour">White</label>
+            <input type="checkbox" id="bestColour">
+
+            <label for="bestColour">Blue</label>
+            <input type="checkbox" id="bestColour">
+
+            <label for="bestColour">Green</label>
+            <input type="checkbox" id="bestColour">
+        </div>
+        <div>
+            <p id="moment">7. The bet moment in our Friendship?</p>
+            <textarea name="" id="moment" cols="40" rows="10"></textarea>
+        </div>
+    </form>
+    </center>
+    
+</body>
+</html>
